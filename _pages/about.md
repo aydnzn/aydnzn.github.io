@@ -58,7 +58,7 @@ Outside the realm of tech, I indulge in:
 - 🏀 Playing basketball
 - 📜 Studying ancient philosophy
 
-💌 **Want to chat?** Feel free to [email me](mailto:aydnzn@gmail.com). --> -->
+💌 **Want to chat?** Feel free to [email me](mailto:aydnzn@gmail.com). -->
 
 ## 👋 Hello!
 
