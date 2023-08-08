@@ -1,44 +1,39 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /photos/
+title: Photos
+description: Browse through a selection of photos I've captured over the years. Whether it's a fleeting moment or a mesmerizing landscape. Enjoy!
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
-## GitHub users
 
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
-  {% endfor %}
+<div style="max-width: 600px;">
+  <img src="../assets/img/karnak.jpg" alt="East Bank of the Nile, Luxor" style="width: 100%; height: auto;">
+  <p class="caption">East Bank of the Nile, Luxor, Egypt.</p>
 </div>
 
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-  {% if site.data.repositories.github_users.size > 1 %}
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.html username=user %}
-  </div>
-
-  ---
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.html repository=repo %}
-  {% endfor %}
+<div style="max-width: 600px;">
+  <img src="../assets/img/home.jpg" alt="East Bank of the Nile, Luxor" style="width: 100%; height: auto;">
+  <p class="caption">A glimpse of home in Çanakkale, Turkey.</p>
 </div>
-{% endif %}
+
+<div style="max-width: 600px;">
+  <img src="../assets/img/angel.jpg" alt="East Bank of the Nile, Luxor" style="width: 100%; height: auto;">
+  <p class="caption">With my niece, mermaid Ipek, in Istanbul, Turkey.</p>
+</div>
+
+<div style="max-width: 600px;">
+  <img src="../assets/img/florence.jpg" alt="East Bank of the Nile, Luxor" style="width: 100%; height: auto;">
+  <p class="caption">Dawn's Golden Embrace Over the Meadows of Florence. Florence, Italy.</p>
+</div>
+
+<div style="max-width: 600px;">
+  <img src="../assets/img/efes.jpg" alt="East Bank of the Nile, Luxor" style="width: 100%; height: auto;">
+  <p class="caption">Iconic facade of the Library of Celsus, a testament to ancient Ephesian grandeur, Turkey.</p>
+</div>
+
+<div style="max-width: 600px;">
+  <img src="../assets/img/extern.jpg" alt="East Bank of the Nile, Luxor" style="width: 100%; height: auto;">
+  <p class="caption">The Externsteine, a testament to nature's artistry in Teutoburg forest, Germany</p>
+</div>
